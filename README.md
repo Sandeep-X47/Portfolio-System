@@ -4,8 +4,8 @@ A modern, high-performance developer portfolio engineered to showcase projects, 
 
 Built for developers who want more than a template.
 
-<p align="center" style="margin: 60px 0;">
-  <img src="./public/banner.png" alt="Portfolio Banner" width="100%" />
+<p align="center" style="margin: 100px 0;">
+  <img src="./public/banner.png" alt="Portfolio Banner" width="10%" />
 </p>
 
 ---
@@ -238,7 +238,3 @@ If you found this project useful:
 
 ---
 
-
-Because strong developers do not just build systems.
-
-They present them properly.

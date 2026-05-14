@@ -5,7 +5,7 @@ A modern, high-performance developer portfolio engineered to showcase projects, 
 Built for developers who want more than a template.
 
 <p align="center" style="margin: 60px 0;">
-  <img src="./public/banner.png" alt="Portfolio Banner" width="60%" />
+  <img src="./public/banner.png" alt="Portfolio Banner" width="100%" />
 </p>
 
 ---

@@ -68,13 +68,13 @@ export default function Contact() {
   }, []);
 
   return (
-    <section id="contact" className="relative min-h-screen text-white px-24 py-32 flex items-center overflow-hidden" style={{background: "radial-gradient(ellipse at 60% 40%, #050d1f 0%, #000000 70%)"}}>
+    <section id="contact" className="relative min-h-screen text-white px-6 md:px-24 py-24 md:py-32 flex items-center overflow-hidden" style={{background: "radial-gradient(ellipse at 60% 40%, #050d1f 0%, #000000 70%)"}}>
       <canvas ref={canvasRef} className="absolute inset-0 w-full h-full z-0 pointer-events-none" />
       <div className="absolute top-1/3 right-1/4 w-80 h-80 rounded-full pointer-events-none z-0" style={{background: "radial-gradient(circle, rgba(37,99,255,0.06) 0%, transparent 70%)", filter: "blur(50px)"}} />
       <div className="relative z-10">
-        <p className="text-[#2563FF] tracking-[0.3em] mb-8 text-sm font-medium">CONTACT</p>
-        <h2 className="text-6xl font-bold mb-10 text-white">Let's build something elite.</h2>
-        <p className="text-[#94A3B8] text-xl mb-16 max-w-2xl">Open to software engineering opportunities, AI projects, collaborations, and ambitious ideas.</p>
+        <p className="text-[#2563FF] tracking-[0.3em] mb-8 text-xs md:text-sm font-medium">CONTACT</p>
+<h2 className="text-4xl md:text-6xl font-bold mb-10 text-white">Let's build something elite.</h2>
+<p className="text-[#94A3B8] text-base md:text-xl mb-16 max-w-2xl">Open to software engineering opportunities, AI projects, collaborations, and ambitious ideas.</p>
         <div className="flex gap-5">
           {[
             { href: "https://linkedin.com/in/sandeep-kumar-b7a8012bb", icon: <LinkedinIcon /> },

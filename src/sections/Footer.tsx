@@ -1,10 +1,10 @@
 export default function Footer() {
   return (
     <footer
-      className="border-t border-blue-900/20 py-10 text-center text-[#94A3B8] backdrop-blur-xl"
+      className="relative py-8 md:py-10 text-center overflow-hidden px-6 border-t border-blue-900/20 backdrop-blur-xl"
       style={{ background: "rgba(0,0,0,0.85)" }}
     >
-      <p className="text-sm tracking-wide">
+      <p className="text-[#94A3B8] text-xs md:text-sm tracking-wide">
         © 2026{" "}
         <span
           className="text-white font-semibold"
@@ -14,6 +14,14 @@ export default function Footer() {
         </span>
         . All rights reserved.
       </p>
+
+      <div
+        className="absolute inset-0 pointer-events-none"
+        style={{
+          background:
+            "radial-gradient(ellipse at 50% 100%, rgba(37,99,255,0.05) 0%, transparent 70%)",
+        }}
+      />
     </footer>
   );
 }

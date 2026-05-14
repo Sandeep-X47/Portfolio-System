@@ -5,7 +5,7 @@ A modern, high-performance developer portfolio engineered to showcase projects, 
 Built for developers who want more than a template.
 
 <p align="center">
-  <img src="./public/banner.png" alt="Portfolio Banner" width="75%" />
+  <img src="./public/banner.png" alt="Portfolio Banner" width="55%" />
 </p>
 
 ---
@@ -238,15 +238,6 @@ If you found this project useful:
 
 ---
 
-# 💡 Final Note
-
-This portfolio was not designed to merely “display projects.”
-
-It was engineered to communicate:
-- technical depth
-- engineering standards
-- product thinking
-- developer identity
 
 Because strong developers do not just build systems.
 

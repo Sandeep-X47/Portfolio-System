@@ -3,9 +3,24 @@
 import { useEffect, useRef } from "react";
 
 const projects = [
-  { title: "DevHub", description: "AI-powered developer workspace for hackathon collaboration.", tag: "Productivity · Developer Tools", href: "https://github.com/dhirajsrinivas/workos-backend" },
-  { title: "InsightFace", description: "Intelligent grooming system powered by AI and facial analysis.", tag: "AI · Computer Vision", href: "https://github.com/Praveen-Mariappasamy/Hairstyle-Predictor" },
-  { title: "Portfolio System", description: "Luxury personal brand and digital identity platform.", tag: "Frontend · Design", href: "https://github.com/Sandeep-X47/Portfolio-System" },
+  {
+    title: "MiniServe",
+    description: "High-throughput LLM inference server with a continuous-batching scheduler, SSE token streaming, backpressure, and a live React ops console.",
+    tag: "Backend · Distributed Systems",
+    href: "https://github.com/Sandeep-X47/miniserve-llm-inference-server",
+  },
+  {
+    title: "AI Communication Copilot",
+    description: "Full-stack AI assistant with JWT auth, Redis caching, per-user rate limiting, and a graceful-degradation layer that runs with zero external services.",
+    tag: "Full-Stack · AI",
+    href: "https://github.com/Sandeep-X47/ai-communication-copilot",
+  },
+  {
+    title: "DevHub",
+    description: "Real-time MERN collaboration workspace with an integrated code editor, team messaging, and role-based authentication.",
+    tag: "Full-Stack · MERN",
+    href: "https://github.com/dhirajsrinivas/workos-backend",
+  },
 ];
 
 export default function Projects() {

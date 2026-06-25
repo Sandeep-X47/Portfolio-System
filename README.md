@@ -223,14 +223,3 @@ Software Engineer • AI Builder • Full Stack Developer
 
 ---
 
-# ⭐ Support The Project
-
-If you found this project useful:
-
-- ⭐ Star the repository
-- 🍴 Fork the project
-- 🚀 Build your own version
-- 🧠 Improve the system
-
----
-
